@@ -1,0 +1,63 @@
+.parent {
+    display: flex;
+    width: fit-content;
+    position: relative;
+    margin: 100px;
+}
+
+.child1 {
+    height: 25px;
+    width: 15px;
+    border-radius: 50%;
+    background: rgb(12, 12, 12);
+    position: absolute;
+    top: 29%;
+    right: 88%;
+    transform: rotate(135deg);
+}
+
+.child2 {
+    height: 25px;
+    width: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 48%;
+    top: 30%;
+    background-color: rgb(0, 0, 0);
+    transform: rotate(45deg);
+}
+
+.child3 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.neck {
+    background-color: rgb(38, 0, 255);
+    height: 50px;
+    width: 15px;
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    bottom: 10px;
+}
+
+.gg-shape-zigzag {
+    position: absolute;
+    top: 70%;
+    right: 60px;
+}
+
+.nose {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 7px 14px 7px;
+    border-color: transparent transparent #030303 transparent;
+}
